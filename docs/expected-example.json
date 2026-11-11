@@ -1,0 +1,18 @@
+{
+  "note": "sha256 of each arm packet (sources/NNNN/<arm>.json) with the timing field \"seconds\" removed, serialised as canonical JSON (sort_keys, compact separators). Produced by deimos 0.1.0 on Python 3.11.15, numpy 1.26.4, pandas 2.2.3, scipy 1.14.1, astropy 6.1.7, macOS arm64; other library builds may differ in the last bits. Check with: python scripts/regression_compare.py --check-expected docs/expected-example.json --new-out examples/kepler-minimal/out `scripts/regression_compare.py --check-expected docs/expected-example.json` matches 8/8 on the Mac it was made on and 7/8 on Linux (rank 74 real differs in the last float bits), so 7/8 on Linux is normal.",
+  "manifest": "examples/kepler-minimal/batch.json",
+  "arm_packet_sha256": {
+    "74": {
+      "real": "fc4a33ff4d3d72c332e2531aa6af8ae6f2ce0fcb904cca7ec7371b92c4616822",
+      "inverted": "a231dc7e0448755c1ee3c04a01be4267f5f47212c4012b665831fa47195b9f4b",
+      "block_scrambled": "e7a40ac61ebcf2de2be7739c1025b41dafddac7130940ba8656b11af35e11d47",
+      "injected": "bc45fff134274ba6b6557bf6c988ebb0d3032ee2e2a846cc8049b94db43d0561"
+    },
+    "100": {
+      "real": "691128c63e9eae7b89169258392896125ac821b1091f4effaa15df616407839c",
+      "inverted": "b04584c97ddd8691e97c0c945ed1c9d83eea62809a27a62b522139e2559bba1d",
+      "block_scrambled": "e61e0831541d38460437d2fd8af7b32febb1ffd951f1c4c25075f756200011ff",
+      "injected": "47b742e532c72b07370296e09180c9b7a1c9ececa86d5c9a3610bed7ac6553e5"
+    }
+  }
+}

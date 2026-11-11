@@ -1,0 +1,15 @@
+{
+  "name": "kepler-minimal",
+  "registration_csv": "registration.csv",
+  "output_dir": "out",
+  "input_dirs": ["data"],
+  "seed_base": 2026101701,
+  "holdouts": false,
+  "workers": 2,
+  "arms": ["real", "inverted", "block_scrambled", "injected"],
+  "injection": {
+    "periods_days": [2, 10, 15, 22, 28],
+    "depths": [0.0005, 0.002, 0.005, 0.01],
+    "durations_days": [0.1, 0.2, 0.3]
+  }
+}

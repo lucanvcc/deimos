@@ -1,0 +1,35 @@
+{
+  "slug": "7920",
+  "kic": 10976416,
+  "gaia_dr3": "2129657923114028544",
+  "public_status": "Known signal (KOI K07393.01) with a proposed host reassignment, ready for expert review",
+  "release_status": "ready for expert review (host attribution of a known signal)",
+  "featured": true,
+  "novelty_status": "known signal",
+  "novelty_note": "The signal is KOI K07393.01, catalogued as a centroid-offset FALSE POSITIVE on the giant KIC 10976412. It is not a new signal. Whether the dwarf host attribution is already published is unconfirmed.",
+  "known_koi": "K07393.01",
+  "catalogued_host_kic": 10976412,
+  "period_d": 3.759380538085426,
+  "period_display": "3.7593805 d",
+  "epoch_bkjd": 134.14201273547485,
+  "ephemeris_note": "Frozen search value; descriptive discovery-quarter fit P 3.7593912 +/- 0.0000151 d is not holdout-validated.",
+  "duration_h": 1.2,
+  "duration_note": "Search-grid minimum (0.05 d), not a fit.",
+  "depth_discovery_ppm": 898,
+  "discovery_snr": 52.9,
+  "depth_holdout_ppm": 900,
+  "depth_holdout_err_ppm": 24,
+  "holdout_snr": 37.8,
+  "radius_re": [
+    1.9,
+    2.0
+  ],
+  "radius_conditions": "Only if the dwarf KIC 10976416 is the host (R* 0.58-0.61 R_sun).",
+  "host_test": "The difference-image test assigned the dwarf in 12/12 quarters (9 supported by the stricter gate); per-star brightness test dwarf z 25.5 vs catalogued giant z -0.69. Injection controls 12/12.",
+  "limitations": [
+    "Shape is unmeasured; a transit-shape check was run but the tool turned out to be invalid, so it is not used.",
+    "A blend within 1-2 arcsec (dm <= 7.6) and an eclipsing binary at twice the period are not excluded.",
+    "Faint sources at 12-14 arcsec lie outside the pixel model; the stellar radius could be wrong."
+  ],
+  "open_questions": "K-band AO/speckle 0.1-3 arcsec, then a spectrum and a false-positive probability."
+}

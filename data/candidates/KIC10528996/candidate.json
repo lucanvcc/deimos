@@ -1,0 +1,39 @@
+{
+  "slug": "25901",
+  "kic": 10528996,
+  "gaia_dr3": "2127936912539397632",
+  "public_status": "Unconfirmed candidate signal, ready for expert review",
+  "release_status": "ready for expert review",
+  "featured": true,
+  "novelty_status": "check incomplete",
+  "novelty_note": "No match in the NASA Exoplanet Archive confirmed-planet, TOI, KOI and Kepler DR24/DR25 TCE tables within 65 arcsec. The community follow-up archive returned HTTP 503 and the literature was not searched on 2026-10-22, so novelty is not established.",
+  "period_d": 13.744751263183606,
+  "period_display": "13.744751 d",
+  "epoch_bkjd": 139.13973116880283,
+  "ephemeris_note": "Frozen search value, no refit and no uncertainty; do not use for predicted transit times.",
+  "duration_h": 4.68,
+  "duration_note": "Search-grid value (0.195 d), not a fit.",
+  "depth_discovery_ppm": 475,
+  "depth_lc_fold_ppm": [
+    513,
+    519
+  ],
+  "depth_holdout_ppm": 528,
+  "depth_holdout_err_ppm": 20,
+  "holdout_snr": 26.0,
+  "discovery_quarters": "12/12",
+  "radius_re": [
+    2.7,
+    2.9
+  ],
+  "radius_conditions": "Only if KIC 10528996 is the host and the dip is undiluted (Gaia DR3 Teff 5669 K, R* 1.14-1.17 R_sun).",
+  "radius_worst_case_re_max": 4.6,
+  "radius_worst_case_conditions": "Worst-case dilution by the modelled neighbours.",
+  "host_test": "The difference-image test assigned the target in 9 of 11 fitted quarters (Q1 untested); the stricter gate passes 4/12. The per-star brightness test target z 18.4. Injection controls recovered 11/11 fitted quarters (synthetic pixel response only).",
+  "limitations": [
+    "An eclipsing binary within ~1-2 arcsec or below the Gaia limit is not excluded.",
+    "A G 18.8 source at 21.6 arcsec lies outside the pixel model; Q1 is untested.",
+    "No public pixel-test figure exists."
+  ],
+  "open_questions": "AO/speckle imaging 0.1-2 arcsec to dmag ~7.4; a spectrum for stellar density; check the community follow-up archive and the literature."
+}

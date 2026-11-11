@@ -1,0 +1,34 @@
+{
+  "slug": "7537",
+  "kic": 4916729,
+  "gaia_dr3": "2101067872016210432",
+  "public_status": "Unconfirmed candidate signal, ready for expert review",
+  "release_status": "ready for expert review",
+  "featured": true,
+  "novelty_status": "no match in the sources checked",
+  "novelty_note": "No ephemeris match among 46,472 KOI, DR25 TCE and Kepler eclipsing binary catalogue entries. Non-KOI DR24 TCEs and the literature are unchecked, so novelty is unproven.",
+  "period_d": 15.233708407736247,
+  "period_display": "15.233708 d",
+  "epoch_bkjd": 131.67016525359824,
+  "ephemeris_note": "Frozen search value, no refit.",
+  "duration_h": 4.7,
+  "duration_note": "Search-grid value (0.195 d), not a fit.",
+  "depth_discovery_ppm": 984,
+  "discovery_snr": 13.6,
+  "depth_holdout_ppm": 1157,
+  "depth_holdout_err_ppm": 116,
+  "holdout_snr": 10.0,
+  "radius_re": [
+    2.2,
+    4.3
+  ],
+  "radius_conditions": "Only if KIC 4916729 is the host (R* 0.64 Gaia to 1.15 R_sun; depth 984-1157 ppm).",
+  "host_test": "Preferred over the 5.2 arcsec neighbour (difference-image test 5/5 assigned; per-star brightness test 1072 +/- 117 vs -37 +/- 39 ppm). The brighter KIC 4916733 at 32 arcsec remains unresolved as a possible source (point-source model preferred, controls 6/6).",
+  "limitations": [
+    "KIC 4916733 halo/ghost leakage is unresolved.",
+    "A blend within 1-2 arcsec and an equal-depth eclipsing binary at twice the period (30.47 d) are not excluded.",
+    "Figure panel (b) uses a display normalisation and shows an apparent brightening of order +0.7-1.5 ppt near phase 0.5, while the search measured -15 +/- 74 ppm at phase 0.5; panel (b) must not be cited as proof of no secondary eclipse."
+  ],
+  "figure_caveat": "Panel (b) uses a display normalisation and shows an apparent brightening of order +0.7-1.5 ppt near phase 0.5, while the search measured -15 +/- 74 ppm at phase 0.5. Do not read panel (b) as proof of no secondary eclipse.",
+  "open_questions": "Far-wing PSF calibration or resolved photometry during transit; AO below 2 arcsec; a spectrum."
+}

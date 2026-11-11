@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+# example products and outputs are generated locally, never committed
+examples/*/data/
+examples/*/out/
+*.fits
+*.fits.gz
+*.part
+.ruff_cache/

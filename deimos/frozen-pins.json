@@ -1,0 +1,7 @@
+{
+  "note": "SHA-256 pins for the numerical code (core.py) and the FITS adapter. Paths are relative to the package directory. check_pins() fails closed on any drift.",
+  "files": {
+    "adapter.py": "6f140bc7d3004184b3327fc36f0e856feac9edbe3b07e74b170339cc074307ec",
+    "core.py": "aec735d504e32862ce9ea352a050af5fe6392aa02fa0b15ed8f3be0dc4562e06"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "rank": 7920,
+  "role": "lead",
+  "target": "Gaia DR3 2129657923114028544",
+  "candidate": {
+    "period_days": 3.759380538085426,
+    "epoch_bkjd": 134.14201273547485,
+    "duration_days": 0.05
+  },
+  "quarters_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "per_quarter": [
+    {
+      "quarter": 1,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 28.365838554965787,
+      "tool_status": "unresolved",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 2
+    },
+    {
+      "quarter": 2,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 28.035568881962917,
+      "tool_status": "unresolved",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 3
+    },
+    {
+      "quarter": 3,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 125.75911747643164,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    },
+    {
+      "quarter": 4,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 19.19737911692899,
+      "tool_status": "unresolved",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    },
+    {
+      "quarter": 5,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 87.36198322486055,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 2
+    },
+    {
+      "quarter": 6,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 69.54249958179753,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 3
+    },
+    {
+      "quarter": 7,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 118.37177946177582,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    },
+    {
+      "quarter": 8,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 113.31927573547573,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    },
+    {
+      "quarter": 9,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 173.04609286991527,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 2
+    },
+    {
+      "quarter": 10,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 125.43354369920422,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 3
+    },
+    {
+      "quarter": 11,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 70.99734275471222,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    },
+    {
+      "quarter": 12,
+      "host": "Gaia DR3 2129657923114028544",
+      "best": "Gaia DR3 2129657923114028544",
+      "second": "Gaia DR3 2129657923114028160",
+      "delta_chi2": 122.45455172619768,
+      "tool_status": "target_supported",
+      "injection_passed": true,
+      "error": null,
+      "n_dropped_edge": 1
+    }
+  ],
+  "A_difference_image_host": "Gaia DR3 2129657923114028544",
+  "B_extraction_host": "Gaia DR3 2129657923114028544",
+  "B_table": [
+    {
+      "source": "Gaia DR3 2129657923114028544",
+      "depth_ppm": 910.5778232962006,
+      "null_sigma_ppm": 35.642473565999616,
+      "z": 25.547548533916203,
+      "measurable": true,
+      "mean_flux_e_s": 20330.415373136344,
+      "dip_flux_e_s": 18.512425377178104,
+      "n_events": 257,
+      "quarters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "source": "Gaia DR3 2129657923114028160",
+      "depth_ppm": -8.059329553867412,
+      "null_sigma_ppm": 11.695049226312856,
+      "z": -0.689123183486446,
+      "measurable": true,
+      "mean_flux_e_s": 99131.2484538628,
+      "dip_flux_e_s": -0.7989314003759898,
+      "n_events": 257,
+      "quarters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "verdict": "KEEP"
+}

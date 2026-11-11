@@ -1,0 +1,36 @@
+{
+  "note": "Science settings. Only clean/search/validate enter the config hash.",
+  "search": {
+    "min_period_days": 0.5,
+    "max_period_days": 30,
+    "min_duration_days": 0.05,
+    "max_duration_days": 0.3,
+    "duration_steps": 8,
+    "phase_drift_fraction": 0.5,
+    "chunk_size": 10000,
+    "min_transits": 3,
+    "min_points_per_transit": 2,
+    "min_snr": 7
+  },
+  "clean": {
+    "sigma_upper": 5,
+    "sigma_lower": 20,
+    "flatten_window_days": 2.1,
+    "gap_days": 0.5,
+    "min_cadences": 100
+  },
+  "validate": {
+    "odd_even_sigma": 3,
+    "secondary_sigma": 5,
+    "max_single_event_fraction": 0.8,
+    "min_remaining_event_snr": 3,
+    "repair_screen": true
+  },
+  "max_peaks": 5,
+  "residual": true,
+  "adapter_flux": "LIGHTCURVE_Q*.FLUX corrected PSF; preserve original PSF_FLUX_NOVA for separately predeclared comparison, no outcome-driven per-source switching",
+  "quality_mask": "SAP_QUALITY == 0; strict engineering proposal to calibrate, not assumed equivalent to PDCSAP defaults",
+  "catalogue_quarter_quality": "PSFFRAC > 0.5; only after per-quarter schema checks",
+  "holdout_guard": "No discovery FITS access now. Later, physically separated holdout artifacts and access ledger; freeze ephemerides before fixed_holdout; no refitting. Upstream independence not established.",
+  "scientific_labels": "UNCHANGED; no candidate promotion bypasses existing unresolved source/localization gates"
+}

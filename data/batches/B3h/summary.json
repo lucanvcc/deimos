@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE",
+  "stop": null,
+  "batch": "B3h",
+  "selected": 5000,
+  "attempted": 5000,
+  "completed": 4326,
+  "failed": 674,
+  "interrupted": 0,
+  "attempted_dependency_groups": 46,
+  "counts": {
+    "real": {
+      "fraction": 1.0,
+      "completed_arms": 4326,
+      "survivor_peaks": 3711,
+      "survivor_sources": 1605,
+      "survivor_dependency_groups": 43,
+      "cache_hits": 0
+    },
+    "inverted": {
+      "fraction": 1.0,
+      "completed_arms": 4326,
+      "survivor_peaks": 3922,
+      "survivor_sources": 1659,
+      "survivor_dependency_groups": 43,
+      "cache_hits": 0
+    },
+    "block_scrambled": {
+      "fraction": 1.0,
+      "completed_arms": 4326,
+      "survivor_peaks": 854,
+      "survivor_sources": 435,
+      "survivor_dependency_groups": 40,
+      "cache_hits": 0
+    },
+    "injected": {
+      "fraction": 1.0,
+      "completed_arms": 4326,
+      "survivor_peaks": 6019,
+      "survivor_sources": 2430,
+      "survivor_dependency_groups": 44,
+      "cache_hits": 0
+    }
+  },
+  "injection_recovery_denominator": 4326,
+  "injection_detected": 2052,
+  "injection_recovered": 1332,
+  "frozen_stages": [
+    5000
+  ],
+  "holdouts_evaluated": 3711,
+  "holdout_status_counts": {
+    "failed_frozen_screen": 3136,
+    "insufficient_power": 471,
+    "supported_fixed_photometry_host_unresolved": 104
+  },
+  "wall": 1792515984.0773504,
+  "lead_groups": 3328,
+  "holdout_supported_groups": 102,
+  "unresolved_lead_groups": 452
+}
