@@ -1,7 +1,7 @@
 # Method
 
-This describes what the code in `deimos/` does. It is a screening procedure; nothing here
-establishes a planet or a candidate.
+This describes what the code in `deimos/` does. It is the procedure that produced the candidates in
+`data/candidates/`. It finds and vets candidate signals; confirming a planet takes follow-up outside this repo.
 
 ## 1. Inputs and adapter (`adapter.py`)
 

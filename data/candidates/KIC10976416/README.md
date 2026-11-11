@@ -1,6 +1,6 @@
 # KIC 10976416
 
-A known signal, KOI K07393.01, with a proposed new host star. It is not a confirmed or validated planet, and I do not claim it is new.
+A catalogued signal, KOI K07393.01, moved to a different star. It was listed as a false positive on a giant; my pixel test puts it on the dwarf KIC 10976416, where it is a planet candidate about twice the size of Earth. It is not yet confirmed, and the signal itself is not new.
 
 ## The signal
 

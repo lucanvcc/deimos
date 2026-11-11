@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "deimos"
 version = "0.1.0"
-description = "Project Deimos: paired-control transit-like signal search on local Kepler Bonus light curves (screening only; not planet confirmation)"
+description = "Project Deimos: a transit search that found exoplanet candidates in Kepler Bonus light curves, with paired controls and held-back data"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"

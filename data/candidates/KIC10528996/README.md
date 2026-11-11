@@ -1,6 +1,6 @@
 # KIC 10528996
 
-An unconfirmed candidate signal. It is not a confirmed or validated planet, and I do not claim it is new.
+An exoplanet candidate: a 13.7-day dip seen in all 12 search quarters and again in the held-back data. It is not yet confirmed as a planet, and the catalogue check is incomplete, so I do not claim it is new.
 
 ## The signal
 

@@ -4,7 +4,7 @@
 
 *A search for planets in Kepler data. Led by Claude Code, owned and directed by Luca Novac. The planets in the picture are artist's impressions.*
 
-I built a pipeline that searched 50,480 Kepler light curves for planets. It found three stars with signals I think are worth an astronomer's time: KIC 10528996, KIC 4916729 and KIC 10976416. All three are candidates. None is a confirmed planet, and one of them (KIC 10976416) is a signal that was already catalogued, where I only argue about which star it comes from. The write-up is at [nluca.space/deimos](https://nluca.space/deimos).
+I found exoplanet candidates in NASA's Kepler data at 20, with no astronomy background. Project Deimos searched 50,480 Kepler light curves and came back with three: KIC 10528996, KIC 4916729 and KIC 10976416. Each one is a dip that repeats on schedule, survived every control I threw at it, and showed up again in data the search was never allowed to see. Two are signals I found in stars almost nobody had searched. The third (KIC 10976416) was catalogued years ago as a false positive on a giant star, and my pixel test puts it on a different star, where it would be a planet about twice the size of Earth. They are candidates, not confirmed planets. Confirmation takes follow-up observations, and the evidence is all here for anyone who wants to do it. The write-up is at [nluca.space/deimos](https://nluca.space/deimos).
 
 A planet passing in front of its star dims the star slightly, over and over. Finding that dip in noisy data is the whole job. Everything in this repo is what I used: the code, the per-batch results, and the evidence for each star.
 
